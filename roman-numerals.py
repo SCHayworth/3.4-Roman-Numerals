@@ -7,7 +7,7 @@
 # if the supplied number is ouside the 1-10 range.
 
 # Prompt user for a number between 1 and 10 and store it in the number variable.
-number = int(input('Please enter a number between 1 and 10'))
+number = int(input('Please enter a number between 1 and 10: '))
 
 # Determine whether or not the number is within the specifid range. If so, print the appropriate Roman numeral
 if number < 1 or number > 10:
