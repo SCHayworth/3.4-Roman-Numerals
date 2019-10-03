@@ -11,25 +11,24 @@ number = int(input('Please enter a number between 1 and 10: '))
 
 # Determine whether or not the number is within the specifid range. If so, print the appropriate Roman numeral
 if number < 1 or number > 10:
-  print('That is not a valid number.')
+  print('\nThat is not a valid number.')
 elif number == 1:
-  print('I')
+  print('\nI')
 elif number == 2:
-  print('II')
+  print('\nII')
 elif number == 3:
-  print('III')
+  print('\nIII')
 elif number == 4:
   print('IV')
 elif number == 5:
-  print('V')
+  print('\nV')
 elif number == 6:
-  print('VI')
+  print('\nVI')
 elif number == 7:
-  print('VII')
+  print('\nVII')
 elif number == 8:
-  print('VIII')
+  print('\nVIII')
 elif number == 9:
-  print('IX')
+  print('\nIX')
 else:
-  print('X')
-  
+  print('\nX')
